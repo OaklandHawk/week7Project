@@ -96,7 +96,7 @@ function horoscope() {
 			console.log("current fortune value is: " + zodiac[i].fortune);
 
 			// get element with id="userSign" and change the text to the user input
-			document.getElementById("yourSign").textContent = userdata.value.;
+			document.getElementById("yourSign").textContent = userdata.value;
 			// get element with id="icon" and change source attribute to current zodiac image path
 			document.getElementById("icon").src = zodiac[i].image;
 			// // get element with id="yourHoroscope" and change the content to this concatenated string
@@ -117,3 +117,4 @@ function horoscope() {
 };
 
 document.body.style.color = "blue";
+

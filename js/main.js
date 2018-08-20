@@ -117,4 +117,5 @@ function horoscope() {
 };
 
 document.body.style.color = "white";
+document.body.style.fontStyle = "italic";
 

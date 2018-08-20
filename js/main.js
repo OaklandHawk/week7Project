@@ -116,5 +116,5 @@ function horoscope() {
 	};
 };
 
-document.body.style.color = "blue";
+document.body.style.color = "white";
 
